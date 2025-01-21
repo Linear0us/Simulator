@@ -76,9 +76,9 @@ namespace Simulator
             {
                 int food = random.Next(1, 5); 
                 InfoUpdate("\n你找到了" + food + "个食物");
-                player.GetFood(food); //同步更改
+                player.GetFood(food);
             }
-            else if(type == 2) //战斗
+            else if (type == 2) //战斗
             {
                 InfoUpdate("\n进入战斗（未完成）");
             }
